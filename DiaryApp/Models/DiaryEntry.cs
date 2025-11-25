@@ -14,6 +14,6 @@ namespace DiaryApp.Models
         public string Content { get; set; }
 
         [Required]
-        public DateTime Created { get; set; } = DateTime.Now; // init of this value with current time
+        public string Created { get; set; } // init of this value with current time is not working
     }
 }
