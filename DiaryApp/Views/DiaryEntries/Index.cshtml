@@ -1,5 +1,19 @@
 ﻿@model List<DiaryEntry>
 
+<div class="container" >
+    <div class="row" pt-4>
+        <div class="col-6">
+            <a class="btn btn-primary" class="nav-link text-light" 
+            asp-area="" asp-controller="DiaryEntries" asp-action="Create"> Create New Diary Entry </a>
+            </div>
+        <div class="col-6 text-end"> 
+            <h2>Diary Entries</h2>
+        </div>
+    </div>
+
+</div>
+
+
 <div class="table-responsive">
     <table class="table table-striped table-hover">
         <thead>
